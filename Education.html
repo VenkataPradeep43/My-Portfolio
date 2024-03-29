@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        li{
+            display: inline;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            font-size: 19px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        li .active{
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        li a:hover:not(.active){
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        .first-block{
+            display: flex;
+            margin-top: 50px;
+        }
+        .college1{
+            width: 47%;
+            height: 210px;
+            display: flex;
+            float: left;
+            border: 2px solid;
+            padding: 8px;
+            margin-left: 17px;
+        }
+        .college1 .name1{
+            width: 70%;
+        }
+        .college1 .logo1{
+            width: 30%;
+        }
+        .logo1 img{
+            margin-left: 20px;
+            margin-top: 8px;
+            width: 180px;
+            height: 180px;
+        }
+        .college2{
+            width: 47%;
+            height: 210px;
+            display: flex;
+            border: 2px solid;
+            padding: 8px;
+            margin-left: 18px;
+        }
+        .college2 .name2{
+            width: 70%;
+        }
+        .college2 .logo2{
+            width: 30%;
+        }
+        .logo2 img{
+            height: 200px;
+            width: 200px;
+            margin: 14px;
+        }
+        .second-block{
+            display: flex;
+            margin-top: 30px;
+            justify-content: center;
+        }       
+         .college3{
+            width: 47%;
+            height: 210px;
+            display: flex;
+            float: left;
+            border: 2px solid;
+            padding: 8px;
+        }
+        .college3 .name3{
+            width: 70%;
+        }
+        .college3 .logo3{
+            width: 30%;
+        }
+        .logo3 img{
+            height: 160px;
+            width: 160px;
+            margin-top: 23px;
+            margin-left: 33px;
+        }
+        .button{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .button a{
+        border: 2px solid;
+        padding: 9px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        }
+        .button a:hover{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body><br>
+    <div class="nav">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a class="active" href="#">Education</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+    </div>
+      <div class="first-block">
+        <div class="college1">
+            <div class="name1">
+                <h4>2022 <span>to</span> 2026 (Still Going)</h4>
+                <h2>Bachelor Degree</h2>
+                <h3>St.Anns College Of Engineering and Technology <br> (An Autonomous Institution)</h3>
+                <p>Nayunipalli village, ChallaReddy Palem Post,Vetapalem Mandal, Chirala, Bapatla District,Andhra Pradesh-523187 </p>
+            </div>
+                <div class="logo1">
+                    <img src="Images\College.png" alt="college">
+                </div>
+          </div>
+          <div class="college2">
+            <div class="name2">
+                <h4>2020 <span>to</span> 2022</h4>
+                <h2>Intermediate</h2>
+                <h3>Bharathi Junior College</h3>
+                <p>WoodNagr,Chirala, Bapatla District,Andhra Pradesh-523155</p>
+            </div>
+                <div class="logo2">
+                    <img src="Images\college2.jpg" alt="college" height="200px" width="200px">
+                </div>
+          </div>
+      </div>
+      <div class="second-block">
+        <div class="college3">
+            <div class="name3">
+                <h4>2017 <span>to</span> 2020</h4>
+                <h2>High School</h2>
+                <h3>Vignana Bharathi High School</h3>
+                <p>WoodNagr,Chirala, Bapatla District,Andhra Pradesh-523155</p>
+            </div>
+                <div class="logo3">
+                    <img src="Images\School.png" alt="school">
+                </div>
+          </div>
+      </div>
+      <div class="button">
+        <a href="Skills.html">Skills</a>
+    </div>
+</body>
+</html>

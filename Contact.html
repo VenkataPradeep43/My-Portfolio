@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep</title>
+    <style>
+           body{
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        li{
+            display: inline;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            font-size: 19px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        li .active{
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        li a:hover:not(.active){
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        .container{
+            display: flex;
+        }
+        .container .text{
+            width: 55%;
+            display: block;
+            margin-left: 100px;
+            margin-top:90px;
+        }
+        .container .image{
+            width: 45%;
+        }
+        .image img{
+            border: 4px solid;
+            border-radius: 50%;
+            margin-top: 70px;
+        }
+        .text .social-media{
+            display: flex;
+        }
+        .social-media img{
+            margin-right: 20px;
+            margin-bottom: 15px;
+            width: 48px;
+            height: 48px;
+        }
+    </style>
+</head>
+<body><br>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a class="active" href="#">Contact</a></li>
+      </ul>
+      <div class="container">
+        <div class="text">
+            <h1>Contact me</h1>
+            <p>Do you speak Telugu? it's ok if you don't,I speak English too.</p>
+            <div class="social-media">
+                <img src="Images\mail-icon.png" alt="image">
+                <p>venkatapradeepd@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <img src="Images\phonecall.png" alt="image">
+                <p>8309681215</p>
+            </div>
+            <div class="social-media">
+                <img src="Images\instagram-icon.png" alt="image">
+                <p>oye_love_u_i_4317</p>
+            </div>
+            <div class="social-media">
+                <img src="Images\Facebook-logo.png" alt="image">
+                <p>PradeepNani</p>
+            </div>
+            <div class="social-media">
+                <img src="Images\linkedin.png" alt="image">
+                <p>venkata Pradeep Devarampati</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="Images\pradeep1.png" alt="image" width="450px" height="450px">
+        </div>
+      </div>
+</body>
+</html>
