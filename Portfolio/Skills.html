@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        li{
+            display: inline;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            font-size: 19px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        li .active{
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        li a:hover:not(.active){
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+        .heading{
+            margin-top: 40px;
+            margin-bottom: 17px;
+        }
+        .heading h1{
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .heading p{
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .skill-block{
+            display: flex;
+        }
+        .first-block{
+            width: 50%;
+        }
+        .first-block .design{
+            width: 100%;
+            display: flex;
+            margin-top: 17px;
+        }
+        .design .image{
+            width: 20%;
+        }
+        .design .text{
+            width: 80%;
+        }
+        .image img{
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        .second-block{
+            width: 50%;
+        }
+        .second-block .graph{
+            width: 80%;
+            height: 33px;
+            border-radius: 4px;
+            border: 2px solid gray;
+            margin-top: 20px;
+            margin-left: 5%;
+        }
+        .graph .html-graph{
+            background-color: orange;
+            width: 85%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .css-graph{
+            background-color: lightblue;
+            width: 70%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .js-graph{
+            background-color: yellow;
+            width: 35%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .bootstrap-graph{
+            background-color: blueviolet;
+            width: 60%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .canva-graph{
+            background-color: violet;
+            width: 40%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .java-graph{
+            background-color: rgb(216, 80, 80);
+            width: 70%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .graph .python-graph{
+            background-color: rgb(98, 98, 207);
+            width: 50%;
+            height: 26px;
+            border-radius: 2px;
+            padding-top: 7px;
+            padding-left: 17px;
+        }
+        .button{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .button a{
+        border: 2px solid;
+        padding: 9px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        }
+        .button a:hover{
+            color: white;
+            background-color: black;
+        }
+</style>
+</head>
+<body><br>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a class="active" href="#">Skills</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <div class="heading">
+        <h1>My Skills</h1>
+        <p>I like to craft beautiful and scalable web products</p>
+      </div>
+      <div class="skill-block">
+      <div class="first-block">
+        <div class="design">
+            <div class="image">
+                <img src="Images\paint-brush.png" alt="image" width="100px" height="100px">
+            </div>
+            <div class="text">
+                <h1>Design + Development</h1>
+                <p>clean, modern designs - optimized for performance,search engineers,<br> and converting users into customers.</p>
+            </div>
+        </div>
+        <div class="design">
+            <div class="image">
+                <img src="Images\Technology.png" alt="image" width="100px" height="100px">
+            </div>
+            <div class="text">
+                <h1>Technology</h1>
+                <p>Combined all the latest technologies to a progressive website.</p>
+            </div>
+        </div>
+        <div class="design">
+            <div class="image">
+                <img src="Images\view.png" alt="image" width="100px" height="100px">
+            </div>
+            <div class="text">
+                <h1>Always Responsive</h1>
+                <p>A responsive design makes your website accessible to all users, regardless of their device.<p>
+            </div>
+        </div>
+      </div>
+      <div class="second-block">
+        <div class="graph">
+            <div class="html-graph">
+                HTML
+            </div>
+        </div>
+        <div class="graph">
+            <div class="css-graph">
+                CSS
+            </div>
+        </div>
+        <div class="graph">
+            <div class="js-graph">
+                JS
+            </div>
+        </div>
+        <div class="graph">
+            <div class="bootstrap-graph">
+                BOOTSTRAP
+            </div>
+        </div>
+        <div class="graph">
+            <div class="canva-graph">
+                CANVA
+            </div>
+        </div>
+        <div class="graph">
+            <div class="java-graph">
+                JAVA
+            </div>
+        </div>
+        <div class="graph">
+            <div class="python-graph">
+                PYTHON
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+        <a href="Contact.html">Contact me!</a>
+    </div>
+</body>
+</html>
